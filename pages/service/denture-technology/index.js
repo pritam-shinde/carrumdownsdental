@@ -175,7 +175,7 @@ const DentureTechnology = () => {
                                                                        
                                                                     <section>
                                                                         <Container maxWidth="xxl" className='p-0'>
-                                                                            <SectionalHeading variant="h2" title="Digital Dentures Carrum Downs Dental Clinic" align='center' color="var(--dark-blue)" />
+                                                                            <SectionalHeading variant="h2" title="Digital Dentures Carrum Downs Dental Clinic"  color="var(--dark-blue)" />
                                                                             <Box mt={3}>
                                                                                 <Grid container spacing={5}>
                                                                                     <Grid item xs={12}>
@@ -188,7 +188,7 @@ const DentureTechnology = () => {
                                                                     </section>
                                                                   
                                                                         <Container maxWidth="xxl" className='p-0'>
-                                                                            <SectionalHeading variant="h2" title="What are Digital Dentures?" align='center' color="var(--dark-blue)" />
+                                                                            <SectionalHeading variant="h2" title="What are Digital Dentures?"   color="var(--dark-blue)" />
                                                                             <Box mt={3}>
                                                                                 <Grid container spacing={5}>
                                                                                     <Grid item xs={12} md={6}>
@@ -200,7 +200,7 @@ const DentureTechnology = () => {
                                                                                 </Grid>
                                                                             </Box>
                                                                             <Box mt={10}>
-                                                                            <Button style={{ width: "2rem" }} className='blueFilledBtn cardBtn' onClick={() => setSelectedTab('Digital Denture')}><a href="https://carrumdownsdental.com.au/service/digital-dentures/" className='text-white'>Learn More..</a></Button>
+                                                                            <Button style={{ width: "10rem" }} className='blueFilledBtn' onClick={() => setSelectedTab('Digital Denture')}><a href="https://carrumdownsdental.com.au/service/digital-dentures/" className='text-white'>Learn More..</a></Button>
                                                                             </Box>
                                                                         </Container>
                                                                 
@@ -231,7 +231,7 @@ const DentureTechnology = () => {
                                                                             <Typography className='para'>An implant-supported overdenture uses some special attachments that snap onto the implants. Like regular dentures, an implant-supported overdenture must be taken out at night for cleaning purposes. It would be best if you also cleaned the gums and implant attachments.</Typography>
                                                                             <Typography className='para'>Millions of individuals across the globe are missing enough teeth to necessitate the use of conventional dentures. Therefore, most of them face difficulties keeping themselves securely in place, particularly in the lower jaw. If you struggle with loose dentures, you must be familiar with the embarrassment that comes with slipping dentures and the inability to enjoy your favorite foods.</Typography>
                                                                             <Box mt={2}  >
-                                                                                <Button style={{ width: "10rem" }} className='blueFilledBtn cardBtn' onClick={() => setSelectedTab('Overdenture')}><a href="https://carrumdownsdental.com.au/service/implant-supported-denture/" className='text-white'>Learn More..</a></Button>
+                                                                                <Button style={{ width: "10rem" }} className='blueFilledBtn' onClick={() => setSelectedTab('Overdenture')}><a href="https://carrumdownsdental.com.au/service/implant-supported-denture/" className='text-white'>Learn More..</a></Button>
                                                                             </Box>
                                                                         </Box>
                                                                     </Container>
